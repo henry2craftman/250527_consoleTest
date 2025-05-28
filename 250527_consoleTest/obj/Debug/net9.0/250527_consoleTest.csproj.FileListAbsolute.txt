@@ -12,3 +12,4 @@ C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net
 C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.pdb
 C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.genruntimeconfig.cache
 C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\ref\250527_consoleTest.dll
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.sourcelink.json
