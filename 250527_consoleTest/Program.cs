@@ -157,6 +157,8 @@ public class Program
         int[,] matrix3 = new int[4, 4];
         matrix2.GetLength(0); // 행렬의 첫번째 차원의 길이를 확인
         matrix2.GetLength(1);
+
+        // Test
     }
 }
 
