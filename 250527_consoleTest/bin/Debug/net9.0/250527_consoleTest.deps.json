@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "250527_consoleTest/1.0.0": {
+        "runtime": {
+          "250527_consoleTest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "250527_consoleTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

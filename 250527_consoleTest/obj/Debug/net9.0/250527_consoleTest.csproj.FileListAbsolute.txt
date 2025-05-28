@@ -1,0 +1,14 @@
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\bin\Debug\net9.0\250527_consoleTest.exe
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\bin\Debug\net9.0\250527_consoleTest.deps.json
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\bin\Debug\net9.0\250527_consoleTest.runtimeconfig.json
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\bin\Debug\net9.0\250527_consoleTest.dll
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\bin\Debug\net9.0\250527_consoleTest.pdb
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.AssemblyInfoInputs.cache
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.AssemblyInfo.cs
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.csproj.CoreCompileInputs.cache
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.dll
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\refint\250527_consoleTest.dll
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.pdb
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\250527_consoleTest.genruntimeconfig.cache
+C:\Users\교수\source\repos\250527_consoleTest\250527_consoleTest\obj\Debug\net9.0\ref\250527_consoleTest.dll
