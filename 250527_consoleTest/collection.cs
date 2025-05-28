@@ -64,6 +64,43 @@ namespace _250527_consoleTest
 
             books.Clear(); // 저장된 책을 모두 제거
 
+            // Queue: 첫번째 저장한 정보부터 꺼낸다. FIFO(First In First Out)
+            // ex. 프린터 작업 대기줄, 다운로드 대기줄
+            Queue<char> chars = new Queue<char>();
+
+            // 줄서기
+            chars.Enqueue('a');
+            chars.Enqueue('b');
+            chars.Enqueue('c');
+
+            chars.Dequeue(); // 정보를 가장 먼저 들어온 순서대로 제거
+
+            foreach(char c in chars)
+            {
+                Console.WriteLine(c);
+            }
+
+            // HashSet: 중복된 값은 무시하는 자료구조
+            // 예시. 이메일 중복 방지, 태그관리
+            HashSet<string> names = new HashSet<string>();
+            names.Add("홍길동");
+            names.Add("손흥민");
+            names.Add("신태욱");
+            names.Add("신태욱");
+            Console.WriteLine("신태욱이 있나요?: " + names.Contains("신태욱"));
+
+            foreach(var name in names)
+            {
+                Console.WriteLine(name);
+            }
+
+            // Dictionary: 뜻(key)-의미(value)를 사용하여 데이터를 저장하는 자료구조
+            Dictionary<string, string> englishDictionary = new Dictionary<string, string>();
+            englishDictionary.Add("책", "book");
+            englishDictionary.Add("사전", "dictionary");
+            englishDictionary.Add("우유", "milk");
+
+            Console.WriteLine("사전의 의미는: " + englishDictionary["사전"]);
         }
     }
 }
