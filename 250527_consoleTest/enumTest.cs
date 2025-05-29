@@ -1,4 +1,6 @@
-﻿namespace _250527_consoleTest
+﻿using System;
+
+namespace _250527_consoleTest
 {
     // 접근한정자(public, private, protected)
     // enum: 열거형 타입
@@ -7,7 +9,7 @@
     {
         Sunday,
         Monday,
-        Tuesday,
+        Tuesday = 5,
         Wednesday,
         Thursday,
         Friday,
@@ -28,6 +30,7 @@
         긴급,
         오류
     }
+
     class enumTest
     {
         public int number = 0; // public 전역함수

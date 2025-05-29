@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|c:\\users\\\uAD50\uC218\\source\\repos\\250527_consoletest\\250527_consoletest\\consoleex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|solutionrelative:250527_consoletest\\consoleex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|c:\\users\\\uAD50\uC218\\source\\repos\\250527_consoletest\\250527_consoletest\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|solutionrelative:250527_consoletest\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|c:\\users\\\uAD50\uC218\\source\\repos\\250527_consoletest\\250527_consoletest\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|solutionrelative:250527_consoletest\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|c:\\users\\\uAD50\uC218\\source\\repos\\250527_consoletest\\250527_consoletest\\enumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|solutionrelative:250527_consoletest\\enumtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|c:\\users\\\uAD50\uC218\\source\\repos\\250527_consoletest\\250527_consoletest\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|solutionrelative:250527_consoletest\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConsoleEx.cs",
+              "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ConsoleEx.cs",
+              "RelativeDocumentMoniker": "250527_consoleTest\\ConsoleEx.cs",
+              "ToolTip": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ConsoleEx.cs",
+              "RelativeToolTip": "250527_consoleTest\\ConsoleEx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T05:44:24.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "collection.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\collection.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\collection.cs",
               "ToolTip": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\collection.cs",
               "RelativeToolTip": "250527_consoleTest\\collection.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T03:40:00.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "typeCasting.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\typeCasting.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\typeCasting.cs",
@@ -55,11 +72,12 @@
               "Title": "enumTest.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\enumTest.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\enumTest.cs",
-              "ToolTip": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\enumTest.cs",
-              "RelativeToolTip": "250527_consoleTest\\enumTest.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwCEAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\enumTest.cs*",
+              "RelativeToolTip": "250527_consoleTest\\enumTest.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T03:12:07.668Z"
+              "WhenOpened": "2025-05-28T03:12:07.668Z",
+              "EditorCaption": ""
             }
           ]
         }

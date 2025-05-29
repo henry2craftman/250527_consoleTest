@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-// 자료구조: 자료를 저장하는 구조
+﻿// 자료구조: 자료를 저장하는 구조
 namespace _250527_consoleTest
 {
     // 컬렉션: 배열처럼 여러개의 데이터를 하나의 객체로 관리하는 기능
@@ -21,6 +16,7 @@ namespace _250527_consoleTest
         {
             int[] numberArray = new int[5] { 1, 2, 3, 4, 5 };         // 고정형
             List<int> numberList = new List<int>() { 1, 2, 3, 4, 5 }; // 가변형
+            // new 키워드를 사용하지 않으면 null을 반환
 
             // numberArray[6] = 10; // 배열은 정해진 인덱스만 접근 가능
             numberList.Add(6);
@@ -66,7 +62,7 @@ namespace _250527_consoleTest
 
             // Queue: 첫번째 저장한 정보부터 꺼낸다. FIFO(First In First Out)
             // ex. 프린터 작업 대기줄, 다운로드 대기줄
-            Queue<char> chars = new Queue<char>();
+            Queue<char> chars = new Queue<char>(); // 인스턴싱, 객체화
 
             // 줄서기
             chars.Enqueue('a');
@@ -94,11 +90,24 @@ namespace _250527_consoleTest
                 Console.WriteLine(name);
             }
 
+            // names 해시셋에 내 이름이 없다면 추가한다.
+            // if(names.Contains("신태욱") == false)
+            if(!names.Contains("신태욱")) // !는 true -> false, false -> true
+            {
+                names.Add("신태욱");
+            }
+
             // Dictionary: 뜻(key)-의미(value)를 사용하여 데이터를 저장하는 자료구조
             Dictionary<string, string> englishDictionary = new Dictionary<string, string>();
             englishDictionary.Add("책", "book");
             englishDictionary.Add("사전", "dictionary");
             englishDictionary.Add("우유", "milk");
+
+            // 방어코드
+            if(!englishDictionary.ContainsKey("책"))
+            {
+                englishDictionary.Add("책", "book");
+            }
 
             Console.WriteLine("사전의 의미는: " + englishDictionary["사전"]);
         }
