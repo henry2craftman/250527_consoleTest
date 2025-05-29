@@ -15,7 +15,7 @@ namespace _250527_consoleTest
         // 암시적 형변환
         // char -> int -> long -> float -> double
 
-        public static void Main55()
+        public static void Main545()
         {
             // pi = 423.4f; // 상수이기 때문에 바꿀 수 없음
 

@@ -12,7 +12,7 @@ namespace _250527_consoleTest
         static int[] numberArray = new int[5] { 1, 2, 3, 4, 5 };
         static List<int> numberList = new List<int>() { 1, 2, 3, 4, 5 };
 
-        static void Main()
+        static void Main32()
         {
             int[] numberArray = new int[5] { 1, 2, 3, 4, 5 };         // 고정형
             List<int> numberList = new List<int>() { 1, 2, 3, 4, 5 }; // 가변형
