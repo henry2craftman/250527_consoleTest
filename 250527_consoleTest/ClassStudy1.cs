@@ -8,7 +8,7 @@ namespace _250527_consoleTest
 {
     class ClassStudy1
     {
-        static void Main()
+        static void Main12()
         {
             Person person1 = new Person(); // new 키워드의 의미: 실체화, 객체화, 인스턴싱
             //person1.name = "신태욱"; // name과 age를 public으로 정했을 경우 사용가능
@@ -33,15 +33,44 @@ namespace _250527_consoleTest
             person2.Run();
 
             Person person3 = new Person("한수현", 50);
+            Console.WriteLine(person3.Name); // get 프로퍼티의 사용
+            person3.Name = "김택선";         // set 프로퍼티의 사용
+            Console.WriteLine(person3.Id);
+
+            Animal dog = new Animal("치와와", 4, "삼돌이");
+            Animal cat = new Animal("코리안숏헤어", 4, "나비");
         }
     }
 
     // 캡슐화(Encapsulation)
     // 접근제한자(접근지정자): public, private, protected (적지 않으면 default는 private)
+    // 기능: 접근제어 매커니즘을 추가로 사용가능 + 기능을 추가할 수 있음
     public class Person
     {
         private string name; // 클래스의 멤버변수
+        public string Name // 겟-셋 프로퍼티
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        private string id;
+        public string Id // 겟 프로퍼티만 사용: id를 확인할 수는 있으나, 변경할 수는 없음
+        {
+            get 
+            {
+                id += " 입니다.";
+
+                Console.WriteLine(id);
+
+                return id; 
+            }
+            // set { name = value; }
+        }
+
         private int age;
+        public int Age { get; }         // 나이는 확인만 가능
+        public int Age1 { get; set; }   // 나이를 확인, 변경 가능
 
         // 생성자1: 아무기능없음
         public Person()
@@ -99,6 +128,37 @@ namespace _250527_consoleTest
         public static float Add(float a, float b)
         {
             return a + b;
+        }
+    }
+
+    public class Animal
+    {
+        private string type;
+        private int legCnt;
+        private string name;
+
+        public Animal(string type, int legCnt, string name)
+        {
+            this.type = type;
+            this.legCnt = legCnt;
+            this.name = name;
+
+            Console.WriteLine($"종은 {type}이고, 다리개수는 {legCnt}이고," +
+                $"이름은 {name}입니다.");
+        }
+
+        public void Walk()
+        {
+
+        }
+
+        public void Bark()
+        {
+
+        }
+        public void Run()
+        {
+
         }
     }
 }
