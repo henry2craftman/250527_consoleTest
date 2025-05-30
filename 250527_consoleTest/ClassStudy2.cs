@@ -9,11 +9,11 @@ namespace _250527_consoleTest
 {
     class ClassStudy2
     {
-        static List<Membership> membershipList; // 정의
+        public static List<Membership> membershipList; // 정의
 
-        static void Main()
+        static void Main22()
         {
-            membershipList = new List<Membership>(); // 할당
+            //membershipList = new List<Membership>(); // 할당
 
             while(true)
             {
