@@ -10,7 +10,7 @@ namespace _250527_consoleTest
 {
     class ClassStudy3
     {
-        static void Main()
+        static void Main12()
         {
             Calculator basicCal = new Calculator();
 
