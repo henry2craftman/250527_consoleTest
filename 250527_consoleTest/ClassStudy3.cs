@@ -14,14 +14,57 @@ namespace _250527_consoleTest
         {
             Calculator basicCal = new Calculator();
 
-            string input = Console.ReadLine(); // 5+6, 99*1.6
-            
+            string input = Console.ReadLine(); // 5+6, 99*1.6, 555555/3.5566
+
+            char[] opers = { '+', '-', '*', '/' };
+
+            string[] numberStr = input.Split(opers); // {"55", "632"}
+
+            float number1, number2;
+            if(float.TryParse(numberStr[0], out number1) && float.TryParse(numberStr[1], out number2))
+            {
+                foreach(char oper in input)
+                {
+                    float result;
+
+                    if (oper == '+')
+                    {
+                        result = basicCal.Plus(number1, number2);
+                        basicCal.Total = result;
+                    }
+                    else if(oper == '-')
+                    {
+                        result = basicCal.Minus(number1, number2);
+                        basicCal.Total = result;
+                    }
+                    else if(oper == '*')
+                    {
+                        result = basicCal.Multiply(number1, number2);
+                        basicCal.Total = result;
+                    }
+                    else if(oper == '/')
+                    {
+                        result = basicCal.Divide(number1, number2);
+                        basicCal.Total = result;
+                    }
+                }
+
+                basicCal.Print();
+            }
+            else
+            {
+                Console.WriteLine("잘못 입력하셨습니다. 다시 입력해 주세요.");
+            }
+
+            //float number1 = float.Parse(numberStr[0]);
+            //float number2 = float.Parse(numberStr[1]);
 
         }
     }
 
     public class Calculator
     {
+        public float total;
         public float Total { get; set; } // 숫자가 최종 저장되는 프로퍼티
 
         public void Print()
