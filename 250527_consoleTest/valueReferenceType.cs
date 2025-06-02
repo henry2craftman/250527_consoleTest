@@ -34,7 +34,7 @@ namespace _250527_consoleTest
             }
         }
 
-        static void Main()
+        static void Main232()
         {
             // Value Type으로 Stack에 저장
             int a = 10;
