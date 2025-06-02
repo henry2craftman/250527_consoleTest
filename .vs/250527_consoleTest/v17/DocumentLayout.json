@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|c:\\users\\\uAD50\uC218\\source\\repos\\250527_consoletest\\250527_consoletest\\valuereferencetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|solutionrelative:250527_consoletest\\valuereferencetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|c:\\users\\\uAD50\uC218\\source\\repos\\250527_consoletest\\250527_consoletest\\classstudy4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E33BC6D-5D65-402E-B18F-F404738C2A85}|250527_consoleTest\\250527_consoleTest.csproj|solutionrelative:250527_consoletest\\classstudy4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,19 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "valueReferenceType.cs",
+              "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\valueReferenceType.cs",
+              "RelativeDocumentMoniker": "250527_consoleTest\\valueReferenceType.cs",
+              "ToolTip": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\valueReferenceType.cs",
+              "RelativeToolTip": "250527_consoleTest\\valueReferenceType.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:25:46.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ClassStudy4.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ClassStudy4.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\ClassStudy4.cs",
               "ToolTip": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ClassStudy4.cs",
               "RelativeToolTip": "250527_consoleTest\\ClassStudy4.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAkwJMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAYwAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T03:22:54.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClassStudy3.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ClassStudy3.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\ClassStudy3.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "250527_consoleTest\\ClassStudy3.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAcwAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:39:23.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:39:23.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClassStudy2.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ClassStudy2.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\ClassStudy2.cs",
@@ -80,12 +96,11 @@
               "RelativeToolTip": "250527_consoleTest\\ClassStudy2.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T05:31:18.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T05:31:18.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClassStudy1.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ClassStudy1.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\ClassStudy1.cs",
@@ -93,12 +108,11 @@
               "RelativeToolTip": "250527_consoleTest\\ClassStudy1.cs",
               "ViewState": "AgIAAH8AAAAAAAAAAAAswAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T01:49:47.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T01:49:47.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ConsoleEx.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\ConsoleEx.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\ConsoleEx.cs",
@@ -110,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "collection.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\collection.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\collection.cs",
@@ -122,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "typeCasting.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\typeCasting.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\typeCasting.cs",
@@ -134,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "enumTest.cs",
               "DocumentMoniker": "C:\\Users\\\uAD50\uC218\\source\\repos\\250527_consoleTest\\250527_consoleTest\\enumTest.cs",
               "RelativeDocumentMoniker": "250527_consoleTest\\enumTest.cs",

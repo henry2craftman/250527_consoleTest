@@ -9,7 +9,7 @@ namespace _250527_consoleTest2 // 네임스페이스를 새로 정의
 {
     class ClassStudy4
     {
-        static void Main()
+        static void Main23()
         {
             //Car car1 = new Car();
             //car1.Brand = "Hyundai";
@@ -213,6 +213,7 @@ namespace _250527_consoleTest2 // 네임스페이스를 새로 정의
 
     public class Dog : Animal
     {
+        // 추상화 - 재정의
         public override void Move()
         {
             Console.WriteLine("Dog 움직이는 중...");
