@@ -10,7 +10,7 @@ namespace _250527_consoleTest4
     // 클래스 다이어그램
     class UMLEx
     {
-        static void Main()
+        static void Main34()
         {
             Calcualtor calcualtor = new Calcualtor();
             calcualtor.Total = calcualtor.Power(2, 5);

@@ -38,15 +38,12 @@ namespace _250527_consoleTest3
     public interface IMovable
     {
         // abstract 메소드와 같이 구현 필수 -> 재정의
-        void Move();
+        void Move(); // abstract 메서드랑 유사하게 이름만 정의, 구현은 상속한 클래스에
     }
 
     public interface ISpeakable
     {
-        void Speak()
-        {
-            Console.WriteLine("말하는중...");
-        }
+        void Speak(); // C# 8.0 부터 인터페이스에서 직접 구현도 가능
     }
 
     // 스마트폰 기능
