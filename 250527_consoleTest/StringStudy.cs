@@ -8,7 +8,7 @@ namespace _250527_consoleTest
 {
     class StringStudy
     {
-        static void Main()
+        static void Main623()
         {
             string content = "Hello World";
 
