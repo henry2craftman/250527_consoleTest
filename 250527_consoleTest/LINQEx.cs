@@ -8,7 +8,7 @@ namespace _250527_consoleTest
 {
     class LINQEx
     {
-        static void Main23()
+        static void Main33()
         {
             int[] numbers = [5, 10, 8, 3, 6, 12];
 
@@ -25,7 +25,7 @@ namespace _250527_consoleTest
 
             // 메서드 형태의 LINQ
             IEnumerable<int> numQuery2 = numbers.Where(num => num % 2 == 0)
-                                                .OrderBy(n => n);
+                                                .OrderBy(num => num);
 
             // Class LINQ
             City[] cities = [
@@ -35,10 +35,10 @@ namespace _250527_consoleTest
             ];
 
             IEnumerable<City> queryMajorCities = from city in cities
-                                                 where city.Population > 30_000_000
+                                                 where city.Population >= 30_000_000
                                                  select city;
 
-            IEnumerable<City> queryMajorCities2 = cities.Where(c => c.Population > 30_000_000);
+            IEnumerable<City> queryMajorCities2 = cities.Where(city => (city.Population >= 30_000_000));
 
             foreach (City city in queryMajorCities)
             {

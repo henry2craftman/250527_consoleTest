@@ -13,16 +13,17 @@ namespace _250527_consoleTest
     /// </summary>
     class FileStudy
     {
-        static void Main()
+        static void Main23()
         {
-            //ReadTextFile("file.txt");
-            //WriteTextFile("file.txt");
-            //AppendText("file.txt");
-            //AppendText("file.txt");
-            //ReadTextFileToEnd("file.txt");
-            //ReadStringUsingFileClass("file2.txt");
+            ReadTextFile("file.txt");
+            WriteTextFile("file.txt");
+            AppendText("file.txt");
+            AppendText("file.txt");
+            ReadTextFileToEnd("file.txt");
+            ReadStringUsingFileClass("file2.txt");
 
-            //DateTime dateTime = DateTime.Now;
+
+            DateTime dateTime = DateTime.Now;
             //Console.WriteLine(dateTime);
 
             // 실습1
@@ -40,8 +41,8 @@ namespace _250527_consoleTest
             //    }
             //}
 
-            //WriteBinaryFile("data.dat");
-            //ReadBinaryFile("data.dat");
+            WriteBinaryFile("data.dat");
+            ReadBinaryFile("data.dat");
 
             // 반복문에서 문자열을 저장할 때, 문자의 변경(복사)가 계속일어남
             // 오버로드
@@ -89,6 +90,10 @@ namespace _250527_consoleTest
             fs.Dispose();
         }
 
+        /// <summary>
+        /// 텍스트 파일을 쓴다.
+        /// </summary>
+        /// <param name="filePath"></param>
         private static void ReadTextFileToEnd(string filePath)
         {
             // 보안프로그램 log, CCTV log, 실시간 서버 log, setting 정보 불러올때
@@ -105,7 +110,7 @@ namespace _250527_consoleTest
         {
             FileStream fs = new FileStream(filePath, FileMode.Open);
             StreamWriter sw = new StreamWriter(fs);
-            sw.WriteLine("Welcome!");
+            sw.WriteLine("Welcome!"); // 덮어쓰기
             Console.WriteLine("쓰기 완료");
 
             sw.Dispose(); 
