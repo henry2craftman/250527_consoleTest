@@ -41,7 +41,7 @@ namespace _250527_consoleTest
         // CheckLine1, CheckLine2, CheckLine3, CheckLine4
         // 대리자에게 CheckLine1, CheckLine2, CheckLine3, CheckLine4를 실행하라.
         // 모든 상태를 한번에 확인 가능
-        static void Main346()
+        static void Main23()
         {
             myDelegate = PrintNum; // 대리자에게 PrintNum을 등록
             myDelegate(3);

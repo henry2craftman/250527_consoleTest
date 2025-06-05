@@ -18,7 +18,7 @@ namespace _250527_consoleTest
         // 이벤트 정의
         static event ClickEvent onClicked;
 
-        static void Main()
+        static void Main532()
         {
             onClicked += PrintEmmergencyAlarm;
 
@@ -60,7 +60,7 @@ namespace _250527_consoleTest
             public void RaiseEvent()
             {
                 //Console.WriteLine("이벤트 발생");
-                EventRaised.Invoke("이벤트 발생");
+                EventRaised.Invoke("이벤트 발생"); // Publisher -> Subscriber
             }
         }
         public class Subscriber

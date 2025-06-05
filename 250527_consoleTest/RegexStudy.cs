@@ -9,7 +9,7 @@ namespace _250527_consoleTest
 {
     class RegexStudy
     {
-        static void Main75()
+        static void Main45()
         {
             // 내가 작성한 문자와 정규표현식을 비교
             Regex regex = new Regex("C.*공부하는 중입니다.");
